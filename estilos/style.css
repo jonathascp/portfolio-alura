@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #393646;
+    color: #fff;
+}
+
+#menu {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
+.cabecalho-lista li {
+    width: 100%;
+    list-style: none;
+    padding: 3px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.cabecalho-lista ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil > img {
+    width: 300px;
+}
+
+.redes-sociais img {
+    width: 40px;
+    margin: 10px;
+}
+
+.dados-pessoais {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.dados img {
+    width: 20px;
+}
+
+main > p {
+    font-size: 0.9em;
+}
+
+.sobre-mim,
+.educacao,
+.experiencia,
+.habilidades,
+.interesses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.icones {
+    display: flex;
+    gap: 10px;
+}
+
+.icones img {
+    width: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    text-align: center;
+    padding: 5px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+}
+
+.contato img {
+    width: 50px;
+}
