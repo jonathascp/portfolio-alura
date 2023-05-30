@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .cabecalho-lista ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sobre-mim > p {
+       width: 50%;
+    }
+}
