@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script defer src="main.js"></script>
     <title>Portfolio Alura</title>
 </head>
-<body>
-    <script defer src="main.js"></script>
+<body onresize="mudouTamanho()">
+    
     <header>
          <span id="menu" class="material-icons" onclick="clickMenu()">menu</span>
         <div class="cabecalho-lista">
+            <p class="portfolio-alura">Portfolio Alura</p>
            <nav id="itens">
                 <ul>
-                    <li>Sobre mim</li>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
                     <li>Educação</li>
                     <li>Experiência</li>
                     <li>Habilidades</li>
@@ -44,7 +46,7 @@
         </div>
     </header>
     <main>
-        <div class="sobre-mim">
+        <div class="sobre-mim" id="sobre-mim">
             <h2>Sobre mim</h2>
             <p>Estudante pela vida toda. Decidi seguir o caminho da programação depois de fazer um exemplo de desenvolvimento de jogos, depois disto, estou aprendendo outras áreas ligadas a programação. </p>
         </div>
@@ -65,14 +67,14 @@
         <div class="habilidades">
             <h2>Habilidades</h2>
             <div class="icones">
-                <img src="imagens/icone-html.png" alt="HTML"><img src="imagens/icone-git.png" alt="Git"><img src="imagens/icone-javascript.png" alt="JS"><img src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png" alt="C-Sharp"><img src="https://cdn-icons-png.flaticon.com/512/5969/5969294.png" alt="Unity">
+                <abbr title="HTML 5"><img src="imagens/icone-html.png" alt="HTML"></abbr><abbr title="Git"><img src="imagens/icone-git.png" alt="Git"></abbr><abbr title="JavaScript"><img src="imagens/icone-javascript.png" alt="JS"></abbr><abbr title="C-Sharp"><img src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png" alt="C-Sharp"></abbr><abbr title="Unity"><img src="https://cdn-icons-png.flaticon.com/512/5969/5969294.png" alt="Unity"></abbr>
             </div>
         </div>
 
         <div class="interesses">
             <h2>Interesses</h2>
             <div class="icones">
-                <img src="imagens/icone-html.png" alt="HTML"><img src="imagens/icone-git.png" alt="Git"><img src="imagens/icone-javascript.png" alt="JS"><img src="imagens/icone-angular.png" alt="Angular"><img src="imagens/icone-linux.png" alt="Linux"><img src="imagens/icone-mysql.png" alt="MySQL">
+                <abbr title="HTML 5"><img src="imagens/icone-html.png" alt="HTML"></abbr><abbr title="Git"><img src="imagens/icone-git.png" alt="Git"></abbr><abbr title="JavaScript"><img src="imagens/icone-javascript.png" alt="JS"></abbr><abbr title="Angular"><img src="imagens/icone-angular.png" alt="Angular"></abbr><abbr title="Linux"><img src="imagens/icone-linux.png" alt="Linux"></abbr><abbr title="MySQL"><img src="imagens/icone-mysql.png" alt="MySQL"></abbr>
             </div>
         </div>
     </main>
