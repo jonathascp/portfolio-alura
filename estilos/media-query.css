@@ -63,7 +63,7 @@
     }
 
     .perfil > img {
-        width: 500px;
+        width: 250px;
     }
 
     .sobre-mim p, .educacao p, .experiencia p {
@@ -80,5 +80,9 @@
         font-size: 1.6rem;
         font-weight: bold;
         color:  #2c3f59;
+    }
+
+    .topo {
+        display: none;
     }
 }

@@ -14,12 +14,20 @@ body,html {
     background-color:  #DDE6ED;
 }
 
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #2c3f59;
+}
+
+.topo > p {
+    font-size: 1.2rem;
+    color:#DDE6ED;
+}
 
 #menu {
-    width: 100%;
-    text-align: center;
-    padding: 5px;
-    background-color: #27374D;
     color: #DDE6ED;
     cursor: pointer;
 }
@@ -94,6 +102,11 @@ body,html {
     font-size: 0.9rem;
 }
 
+.experiencia a {
+    color: #2c3f59;
+    font-weight: bold;
+}
+
 .sobre-mim > p {
     text-align: left;
 }
@@ -127,6 +140,10 @@ h2 {
 
 .icones img {
     width: 50px;
+}
+
+#descricao {
+    padding-top: 10px;
 }
 
 footer {
